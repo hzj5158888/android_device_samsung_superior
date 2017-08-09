@@ -13,11 +13,13 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-
-# Include common makefile
-#$(call inherit-product, hardware/ti/omap4/common.mk)
-
 LOCAL_PATH := device/samsung/superior
+
+# Processor
+TARGET_BOARD_OMAP_CPU := 4470
+
+# Include omap4 common makefile
+$(call inherit-product, hardware/ti/omap4/omap4.mk)
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 

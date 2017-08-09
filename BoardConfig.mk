@@ -67,7 +67,7 @@ USE_OPENGL_RENDERER := true
 # Force the screenshot path to CPU consumer
 BOARD_GLOBAL_CFLAGS += -DFORCE_SCREENSHOT_CPU_PATH
 
-# pvrkm
+# PVRKM
 -include hardware/ti/omap4/pvr-km.mk
 
 # Camera

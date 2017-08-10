@@ -98,7 +98,6 @@ PRODUCT_PACKAGES += \
     pvrsrvinit \
     libsrv_init \
     libsrv_um \
-    libIMGegl \
     libedid \
     libcamera \
     camera.omap4 \

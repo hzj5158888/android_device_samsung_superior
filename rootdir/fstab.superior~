@@ -17,3 +17,6 @@
 /dev/block/mmcblk0p5        /boot       emmc                defaults        recoveryonly
 /dev/block/mmcblk0p6        /recovery   emmc                defaults        recoveryonly
 /dev/null                   /sdcard     datamedia           defaults        recoveryonly
+
+# zRAM
+/dev/block/zram0            none        swap                defaults        zramsize=268435456

@@ -3,6 +3,3 @@
 
 ## Firmwares
 allow ueventd { firmware_ducati }:file r_file_perms;
-
-# RootFs
-allow domain rootfs:lnk_file { read getattr };

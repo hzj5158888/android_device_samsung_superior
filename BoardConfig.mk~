@@ -16,10 +16,8 @@
 #
 
 BOARD_VENDOR := samsung
-
 TARGET_BOARD_OMAP_CPU := 4470
 
-# inherit from omap4
 -include hardware/ti/omap4/BoardConfigCommon.mk
 
 # This variable is set first, so it can be overridden
